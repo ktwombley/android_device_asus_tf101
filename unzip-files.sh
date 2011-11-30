@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE=transformer
+DEVICE=tf101
 MANUFACTURER=asus
 
 mkdir -p ../../../vendor/$MANUFACTURER/$DEVICE/proprietary

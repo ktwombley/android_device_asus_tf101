@@ -25,6 +25,4 @@
 # it includes.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_transformer.mk
-	$(LOCAL_DIR)/full_transformer3g.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/full_tf101.mk $(LOCAL_DIR)/full_tf1013g.mk

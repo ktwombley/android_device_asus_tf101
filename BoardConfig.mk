@@ -17,7 +17,7 @@
 # Product-specific compile-time definitions.
 #
 
-LOCAL_PATH:= $(call my-dir)
+LOCAL_PATH:= device/asus/tf101
 
 
 # WARNING: This line must come *before* including the proprietary
@@ -26,17 +26,18 @@ LOCAL_PATH:= $(call my-dir)
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/asus/transformer/BoardConfigVendor.mk
+-include vendor/asus/tf101/BoardConfigVendor.mk
 
 # Target setup
 TARGET_NO_BOOTLOADER := true
-TARGET_BOARD_PLATFORM := tegra
+wTARGET_BOARD_PLATFORM := tegra
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
+TARGET_ARCH_VARIANT := armv7-a
 TARGET_ARCH_VARIANT_CPU := cortex-a9
 TARGET_BOOTLOADER_BOARD_NAME := tf101
 
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
+TARGET_PREBUILT_KERNEL := device/asus/tf101/kernel
 
 BOARD_KERNEL_CMDLINE := 
 BOARD_KERNEL_BASE := 0x10000000

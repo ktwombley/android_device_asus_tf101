@@ -20,7 +20,7 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-add_lunch_combo asus_transformer-eng
-add_lunch_combo asus_transformer-userdebug
-add_lunch_combo asus_transformer3g-eng
-add_lunch_combo asus_transformer3g-userdebug
+add_lunch_combo asus_tf101-eng
+add_lunch_combo asus_tf101-userdebug
+add_lunch_combo asus_tf1013g-eng
+add_lunch_combo asus_tf1013g-userdebug
