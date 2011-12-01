@@ -19,5 +19,12 @@ include $(CLEAR_VARS)
 #from buzzbumblebee's repo
 ALL_PREBUILT += $(INSTALLED_KERNEL_TARGET)
 
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+LOCAL_KERNEL := $(LOCAL_PATH)/kernel
+else
+LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+
+
 # include the non-open-source counterpart to this file
 -include vendor/asus/tf101/AndroidBoardVendor.mk

@@ -30,7 +30,7 @@ USE_CAMERA_STUB := true
 
 # Target setup
 TARGET_NO_BOOTLOADER := true
-wTARGET_BOARD_PLATFORM := tegra
+TARGET_BOARD_PLATFORM := tegra
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a

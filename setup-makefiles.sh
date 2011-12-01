@@ -17,7 +17,7 @@
 DEVICE=tf101
 MANUFACTURER=asus
 
-mkdir -p ../../../vendor/$VENDOR/$DEVICE
+mkdir -p ../../../vendor/$MANUFACTURER/$DEVICE
 
 (cat << EOF) | sed s/__DEVICE__/$DEVICE/g | sed s/__MANUFACTURER__/$MANUFACTURER/g > ../../../vendor/$MANUFACTURER/$DEVICE/$DEVICE-vendor.mk
 # Copyright (C) 2010 The Android Open Source Project
