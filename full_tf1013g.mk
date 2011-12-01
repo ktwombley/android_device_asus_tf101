@@ -29,13 +29,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 #PRODUCT_LOCATION_EU := true
 
 ifdef PRODUCT_LOCATION_EU
-    $(call inherit-product, device/common/gps/gps_eu_supl.mk)
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.wifi.country=GB
+$(call inherit-product, device/common/gps/gps_eu_supl.mk)
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.wifi.country=GB
 else
-    $(call inherit-product, device/common/gps/gps_us_supl.mk)
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.wifi.country=US
+$(call inherit-product, device/common/gps/gps_us_supl.mk)
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.wifi.country=US
 endif
 
 
@@ -49,17 +49,17 @@ PRODUCT_MODEL := TF101G
 $(call inherit-product-if-exists, vendor/asus/tf101/tf101-vendor.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    wifi.interface=wlan0 \
-    ro.ethernet.interface=eth0 \
-    ro.ethernet.autoEnable=yes \
-    rild.libpath=/system/lib/libmbm-ril.so \
-    rild.libargs=-d /dev/ttyACM0 -i wwan0 \
+	wifi.interface=wlan0 \
+	ro.ethernet.interface=eth0 \
+	ro.ethernet.autoEnable=yes \
+	rild.libpath=/system/lib/libmbm-ril.so \
+	rild.libargs=-d /dev/ttyACM0 -i wwan0 \
     
 PRODUCT_PROPERTY_OVERRIDES += \
-    keyguard.no_require_sim=true \
-    dalvik.vm.dexopt-flags=m=y \
-    dalvik.vm.heapsize=32m \
-    dalvik.vm.execution-mode=int:jit \
-    dalvik.vm.dexopt-data-only=1 \
-    ro.opengles.version=131072  \
-    ro.com.android.dateformat=dd-MM-yyyy \
+	keyguard.no_require_sim=true \
+	dalvik.vm.dexopt-flags=m=y \
+	dalvik.vm.heapsize=32m \
+	dalvik.vm.execution-mode=int:jit \
+	dalvik.vm.dexopt-data-only=1 \
+	ro.opengles.version=131072  \
+	ro.com.android.dateformat=dd-MM-yyyy \

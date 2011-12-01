@@ -24,6 +24,9 @@ LOCAL_PATH := $(call my-dir)
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+# Inherit from tf101 device
+$(call inherit-product, device/asus/tf101/device.mk)
+
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -32,13 +35,13 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 #PRODUCT_LOCATION_EU := true
 
 ifdef PRODUCT_LOCATION_EU
-    $(call inherit-product, device/common/gps/gps_eu_supl.mk)
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.wifi.country=GB
+$(call inherit-product, device/common/gps/gps_eu_supl.mk)
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.wifi.country=GB
 else
-    $(call inherit-product, device/common/gps/gps_us_supl.mk)
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.wifi.country=US
+$(call inherit-product, device/common/gps/gps_us_supl.mk)
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.wifi.country=US
 endif
 
 
@@ -46,19 +49,21 @@ PRODUCT_NAME := asus_tf101
 PRODUCT_DEVICE := tf101
 PRODUCT_BRAND := asus
 PRODUCT_MANUFACTURER := asus
-PRODUCT_MODEL := TF101
+PRODUCT_MODEL := AOSP on TF101
+
 $(call inherit-product-if-exists, vendor/asus/tf101/tf101-vendor.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    wifi.interface=wlan0 \
-    ro.ethernet.interface=eth0 \
-    ro.ethernet.autoEnable=yes \
-    
+	wifi.interface=wlan0 \
+	ro.ethernet.interface=eth0 \
+	ro.ethernet.autoEnable=yes \
+	
 PRODUCT_PROPERTY_OVERRIDES += \
-    keyguard.no_require_sim=true \
-    dalvik.vm.dexopt-flags=m=y \
-    dalvik.vm.heapsize=32m \
-    dalvik.vm.execution-mode=int:jit \
-    dalvik.vm.dexopt-data-only=1 \
-    ro.opengles.version=131072  \
-    ro.com.android.dateformat=dd-MM-yyyy \
+	keyguard.no_require_sim=true \
+	dalvik.vm.dexopt-flags=m=y \
+	dalvik.vm.heapsize=32m \
+	dalvik.vm.execution-mode=int:jit \
+	dalvik.vm.dexopt-data-only=1 \
+	ro.opengles.version=131072  \
+	ro.com.android.dateformat=dd-MM-yyyy \
+	
