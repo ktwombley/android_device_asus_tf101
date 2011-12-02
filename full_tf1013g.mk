@@ -41,7 +41,7 @@ endif
 
 
 
-PRODUCT_NAME := asus_tf1013g
+PRODUCT_NAME := full_tf1013g
 PRODUCT_DEVICE := tf1013g
 PRODUCT_BRAND := asus
 PRODUCT_MANUFACTURER := asus
