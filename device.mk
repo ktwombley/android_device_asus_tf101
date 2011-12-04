@@ -9,13 +9,13 @@ DEVICE_PACKAGE_OVERLAYS += device/asus/tf101/overlay
 
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := device/asus/tf101/kernel
+LOCAL_KERNEL := device/asus/tf101/kernel
 else
-	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel
+PRODUCT_COPY_FILES := \
+	$(LOCAL_KERNEL):kernel \
 
 $(call inherit-product, build/target/product/full.mk)
 
