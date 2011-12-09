@@ -16,6 +16,10 @@ endif
 
 PRODUCT_COPY_FILES := \
 	$(LOCAL_KERNEL):kernel \
+	device/asus/tf101/init.ventana.rc:root/init.ventana.rc \
+	device/asus/tf101/ueventd.ventana.rc:root/ueventd.ventana.rc \
+
+
 
 $(call inherit-product, build/target/product/full.mk)
 
