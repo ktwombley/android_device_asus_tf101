@@ -20,23 +20,20 @@ DEVICE=tf101
 MANUFACTURER=asus
 
 mkdir -p ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/app/AdobeFlash.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/app/AppLocker.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/AsusReader.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/AsusSetupWizard.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/AWS.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/app/BatteryWidget.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/BooksTablet.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/ChromeBookmarksSyncAdapter.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/CMClient.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/DataBackup.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/Dictionary.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/app/DLNA.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/DMClient.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/EmailWidget.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/FacebookPoster.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/app/FileManager2.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/app/GalleryNew3D.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/app/Glowball.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/app/FileManager.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/app/GalleryNew3DGoogle.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/Gmail.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/GoogleBackupTransport.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/GoogleCalendarSyncAdapter.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -55,23 +52,20 @@ unzip -j -o ../../../${DEVICE}_update.zip system/app/Maps.apk -d ../../../vendor
 unzip -j -o ../../../${DEVICE}_update.zip system/app/MarketUpdater.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/MEar.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/MediaUploader.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/app/ModemUpdateService.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/Music2.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/MyCloud.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/app/MyNet.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/app/MyWater2.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/app/MyGazine.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/MyWater.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/app/MyZine.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/Netflix.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/NetworkLocation.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/app/NvCPLSvc.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/NVIDIATegraZone.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/app/OneTimeInitializer.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/PCSyncLauncher.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/Phonesky.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/PixWe.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/PolarisOffice.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/PRAndroid.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/app/QuickSearch.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/app/Riptide.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/Screenshot.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/SetupWizard.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/StrAsus.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -87,107 +81,77 @@ unzip -j -o ../../../${DEVICE}_update.zip system/app/Videos.apk -d ../../../vend
 unzip -j -o ../../../${DEVICE}_update.zip system/app/VoiceSearch.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/Weather.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/XT9IME.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/app/YoutubeSearch.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/YouTubeTablet.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/ZinioReader.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/app/ZinioSettingsProvider.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/bin/ash -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/brcm_patchram_plus -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/cluster -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/cluster_get.sh -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/cluster_set.sh -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/dcc -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/downloader -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/fild -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/bin/fu -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/bin/glgps -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/hdcp_test -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/hotplug -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/isp_fw_update -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/load-ssn -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/bin/make_ext4fs -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/mount_debugfs.sh -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/nvcpud -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/bin/nv_hciattach -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/bin/nvrm_daemon -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/bin/nvtest -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/ps3service -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/recoveryd -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/bin/sensors-config -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/sixpair -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/stagefright -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/bin/SerialAttach -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/bin/tegrastats -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/wifimacwriter -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/bin/wminput -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/acc_led -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/acc_ptr -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/bin/wifiloader -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/data/srs_processing.cfg -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/data/srs_processing_SL101.cfg -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/amazon-kindle.properties -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/asound.conf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/bluetooth/bdaddr -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/bluetooth/main.conf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/buttons -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/dict/enen.dict.dz -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/dict/enen.idx.gz -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/dict/enen.ifo -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/dict/enen.xidx.gz -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/enctune.conf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/BCM4329B1_002.002.023.0797.0863.hcd -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/BCM4329B1_002.002.023.0797.0879.hcd -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/BCM4330B1_002.001.003.0370.0380.hcd -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/BCM4330B1_002.001.003.0379.0390.hcd -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/camera/TF201-RS_M6Mo-0x9879.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/BCM4329B1_002.002.023.0797.0942.hcd -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/EC/FU.cfg -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/EC/FU-d.cfg -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/EC/TF201-DOCK-0205.rom -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/EC/TF201-PAD-0211.rom -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/EC/SL101-EC-0106.rom -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/EC/TF101-EC-0213.rom -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/EM820W_11.810.09.12.00.zip -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvddk_audiofx_core.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvddk_audiofx_transport.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_aacdec.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_adtsdec.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_h264dec2x.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_audiomixer.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_h264dec.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_jpegdec.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_jpegenc.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_manager.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_mp2dec.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_mp3dec.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_mpeg2dec.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_mpeg4dec.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_reference.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_service.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_sorensondec.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_vc1dec_2x.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_vc1dec.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_wavdec.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_wmadec.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvmm_wmaprodec.axf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvrm_avp_00001000.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvrm_avp_0ff00000.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvrm_avp_8e000000.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvrm_avp_9e000000.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvrm_avp_be000000.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvrm_avp_e0000000.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvrm_avp_eff00000.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/RS_M6Mo.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/FRL.list -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/gamepad -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/nvrm_avp.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/gps/gpsconfig.xml -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/ir_ptr -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/neverball -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/normalmode.sh -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/nunchuk_acc_ptr -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/nunchuk_stick2btn -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/nvram_murata.txt -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/nvram_nh615.txt -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/nvram_nh665.txt -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/init.qcom.bt.sh -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/nvram_a_sl101.txt -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/nvram_a.txt -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/nvram.txt -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/permissions/android.software.live_wallpaper.xml -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/permissions/android.software.sip.voip.xml -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/permissions/asus.hardware.TF201.xml -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/permissions/asus.hardware.SL101.xml -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/permissions/asus.hardware.TF101.xml -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/permissions/com.google.android.maps.xml -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/permissions/com.google.widevine.software.drm.xml -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/permissions/com.nvidia.nvstereoutils.xml -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/permissions/tablet_core_hardware.xml -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/power_profile/SL101_power_profile.xml -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/power_profile/TF101G_power_profile.xml -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/power_profile/TF101_power_profile.xml -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/ppp/ip-down-HUAWEI -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/ppp/ip-up-HUAWEI -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/projectmap.conf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/pwrsavemode.sh -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/security/cacerts.bks -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/turbomode.sh -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/updatecmds/google_generic_update.txt -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/vold.fstab -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/fonts/AdobeFonts/fonts/AdobeHeitiStd-Regular.otf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -219,31 +183,20 @@ unzip -j -o ../../../${DEVICE}_update.zip system/fonts/ugkai00m.ttf -d ../../../
 unzip -j -o ../../../${DEVICE}_update.zip system/fonts/UHEI01B.ttf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/framework/com.android.future.usb.accessory.jar -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/framework/com.google.android.maps.jar -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/framework/com.nvidia.nvstereoutils.jar -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/framework/sqlite-jdbc.jar -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/acc.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/drm/libdrmwvmplugin.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/egl/libEGL_perfhud.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/egl/libEGL_tegra.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/egl/libGLESv1_CM_perfhud.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/egl/libGLESv1_CM_tegra.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/egl/libGLESv2_perfhud.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/egl/libGLESv2_tegra.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/gps.tegra.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/gps.ventana.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/gralloc.tegra.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/hwcomposer.tegra.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/lights.cardhu.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/sensors.cardhu.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/tegra_alsa.cardhu.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/ir_ptr.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/led.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/lights.ventana.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/overlay.tegra.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/sensors.tegra.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/sensors.ventana.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/tegra_alsa.ventana.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/liba2dp.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libakmd.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libami_sensor_mw.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libami.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libAndrJFPDFEMB.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libANGLE.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libardrv_dynamic.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libasound.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libaudiopolicy.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libaudio.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -252,9 +205,8 @@ unzip -j -o ../../../${DEVICE}_update.zip system/lib/libavutil.so -d ../../../ve
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libcamera.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libcgdrv.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libchinesetrace.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libcwiid.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libereader.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libhwui.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libhuawei-ril.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libiris-jni.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libjingle.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libjni_pinyinime.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -267,31 +219,27 @@ unzip -j -o ../../../${DEVICE}_update.zip system/lib/libkeyboard_jni.so -d ../..
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libmllite.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libmlplatform.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libmpl.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvavp.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvcontrol_jni.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvcpud_client.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvcpud.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvddk_2d.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvddk_2d_v2.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvddk_aes_user.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvddk_audiofx.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvddk_vmr.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvdispatch_helper.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvdispmgr_d.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvec.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvhdmi3dplay_jni.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_asfparser.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_audio.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_aviparser.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_camera.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_contentpipe.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_image.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmmlite_audio.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmmlite.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmmlite_utils.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmmlite_video.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_manager.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_misc.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_msaudio.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_parser.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_service.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_tracklist.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_utils.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_vc1_video.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_videorenderer.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -299,29 +247,23 @@ unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_video.so -d ../../.
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_vp6_video.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvmm_writer.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvodm_dtvtuner.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvodm_hdmi.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvodm_imager.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvodm_misc.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvodm_query.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvomxadaptor.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvomxilclient.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvomx.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvos.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvparser.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvrm_channel.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvrm_graphics.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvrm.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvsm.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvstereoutils_jni.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvsystemuiext_jni.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvtestio.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvtestresults.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvtvmr.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvwinsys.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libnvwsi.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libortp.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libpolarisoffice_Clipboard.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libpolarisoffice.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libril-icera.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libsensors.mpl.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libshapewriter.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libsrsprocessing.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libstabilize.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -329,48 +271,13 @@ unzip -j -o ../../../${DEVICE}_update.zip system/lib/libstagefrighthw.so -d ../.
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libswscale.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libtalk_jni.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libttssynthproxy.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/libusb.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libvoicesearch.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libwvdrm.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libwvm.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libWVStreamControlAPI.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/baseband_usb_chr.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/baseband-xmm-power2.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/battery_rvsd.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/bcm4329.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/bcmdhd.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/cdc-acm.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/gspca_main.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/max2165.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/mc44s803.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/mt2060.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/mt20xx.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/mt2131.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/mt2266.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/mxl5005s.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/mxl5007t.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/qt1010.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/raw_ip_net.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/scsi_wait_scan.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/tcrypt.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/tda18271.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/tda827x.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/tda8290.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/tda9887.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/tea5761.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/tea5767.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/tuner-simple.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/tuner-types.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/tuner-xc2028.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/xc5000.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/nunchuk_acc.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/nunchuk_stick2btn.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/omxplayer.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/plugins/com.adobe.flashplayer/libflashplayer.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/plugins/com.adobe.flashplayer/libstagefright_froyo.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/plugins/com.adobe.flashplayer/libstagefright_honeycomb.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/plugins/com.adobe.flashplayer/libysshared.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/media/audio/notifications/NewMessage.ogg -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/media/audio/ui/KeyboardDock.ogg -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/media/bootanimation.zip -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/scripts/monkey/EmptyActivity.apk -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/scripts/monkey/monkey_test_a -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -381,17 +288,12 @@ unzip -j -o ../../../${DEVICE}_update.zip system/scripts/monkey/TestIME.apk -d .
 unzip -j -o ../../../${DEVICE}_update.zip system/scripts/monkey/timer -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/usr/icu/icudt44l.dat -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/usr/idc/atmel-maxtouch.idc -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/usr/idc/eGalax_Serial.idc -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/usr/idc/elantech_touchscreen.idc -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/usr/idc/panjit_touch.idc -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/usr/keychars/asusdec.kcm -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/usr/keylayout/asusdec.kl -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/usr/keylayout/Bluetooth_00_06_66_42.kl -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/usr/keychars/asusec.kcm -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/usr/keylayout/asusec.kl -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/usr/keylayout/gpio-keys.kl -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/usr/keylayout/tegra-kbc.kl -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/usr/keylayout/Vendor_044f_Product_d007.kl -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/usr/keylayout/Vendor_046d_Product_c21d.kl -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/usr/keylayout/Vendor_046d_Product_c21f.kl -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/usr/keylayout/Vendor_057e_Product_0306.kl -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/usr/share/alsa/alsa.conf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/usr/share/alsa/cards/aliases.conf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/usr/share/alsa/pcm/center_lfe.conf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -523,10 +425,8 @@ unzip -j -o ../../../${DEVICE}_update.zip system/usr/xt9/keylayout/qwerty-th_TH.
 unzip -j -o ../../../${DEVICE}_update.zip system/usr/xt9/keylayout/qwerty-tr_TR.kl -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/usr/xt9/keylayout/qwerty-zh_CN.kl -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/usr/xt9/keylayout/qwerty-zh_TW.kl -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/vendor/firmware/fw_bcm4330_apsta.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/vendor/firmware/fw_bcm4330_b1.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/vendor/firmware/fw_bcm4330.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/xbin/asus-backup -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/xbin/busybox -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/xbin/su -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 
 (cat << EOF) | sed s/__DEVICE__/$DEVICE/g | sed s/__MANUFACTURER__/$MANUFACTURER/g > ../../../vendor/$MANUFACTURER/$DEVICE/device-vendor-blobs.mk
@@ -553,102 +453,73 @@ PRODUCT_COPY_FILES := \\
 # All the blobs necessary for tf101
 PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/ash:system/bin/ash \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/brcm_patchram_plus:system/bin/brcm_patchram_plus \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/cluster:system/bin/cluster \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/cluster_get.sh:system/bin/cluster_get.sh \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/cluster_set.sh:system/bin/cluster_set.sh \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/dcc:system/bin/dcc \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/downloader:system/bin/downloader \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/fild:system/bin/fild \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/fu:system/bin/fu \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/glgps:system/bin/glgps \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/hdcp_test:system/bin/hdcp_test \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/hotplug:system/bin/hotplug \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/isp_fw_update:system/bin/isp_fw_update \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/load-ssn:system/bin/load-ssn \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/make_ext4fs:system/bin/make_ext4fs \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/mount_debugfs.sh:system/bin/mount_debugfs.sh \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvcpud:system/bin/nvcpud \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nv_hciattach:system/bin/nv_hciattach \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvrm_daemon:system/bin/nvrm_daemon \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvtest:system/bin/nvtest \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/ps3service:system/bin/ps3service \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/recoveryd:system/bin/recoveryd \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/sensors-config:system/bin/sensors-config \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/sixpair:system/bin/sixpair \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/stagefright:system/bin/stagefright \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/SerialAttach:system/bin/SerialAttach \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/tegrastats:system/bin/tegrastats \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/wifimacwriter:system/bin/wifimacwriter \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/wminput:system/bin/wminput \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/acc_led:system/etc/acc_led \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/acc_ptr:system/etc/acc_ptr \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/wifiloader:system/bin/wifiloader \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/srs_processing.cfg:system/data/srs_processing.cfg \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/srs_processing_SL101.cfg:system/data/srs_processing_SL101.cfg \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/amazon-kindle.properties:system/etc/amazon-kindle.properties \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/asound.conf:system/etc/asound.conf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/bdaddr:system/etc/bluetooth/bdaddr \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/main.conf:system/etc/bluetooth/main.conf \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/buttons:system/etc/buttons \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/enen.dict.dz:system/etc/dict/enen.dict.dz \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/enen.idx.gz:system/etc/dict/enen.idx.gz \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/enen.ifo:system/etc/dict/enen.ifo \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/enen.xidx.gz:system/etc/dict/enen.xidx.gz \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/enctune.conf:system/etc/enctune.conf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/BCM4329B1_002.002.023.0797.0863.hcd:system/etc/firmware/BCM4329B1_002.002.023.0797.0863.hcd \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/BCM4329B1_002.002.023.0797.0879.hcd:system/etc/firmware/BCM4329B1_002.002.023.0797.0879.hcd \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/BCM4330B1_002.001.003.0370.0380.hcd:system/etc/firmware/BCM4330B1_002.001.003.0370.0380.hcd \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/BCM4330B1_002.001.003.0379.0390.hcd:system/etc/firmware/BCM4330B1_002.001.003.0379.0390.hcd \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/TF201-RS_M6Mo-0x9879.bin:system/etc/firmware/camera/TF201-RS_M6Mo-0x9879.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/BCM4329B1_002.002.023.0797.0942.hcd:system/etc/firmware/BCM4329B1_002.002.023.0797.0942.hcd \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/FU.cfg:system/etc/firmware/EC/FU.cfg \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/FU-d.cfg:system/etc/firmware/EC/FU-d.cfg \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/TF201-DOCK-0205.rom:system/etc/firmware/EC/TF201-DOCK-0205.rom \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/TF201-PAD-0211.rom:system/etc/firmware/EC/TF201-PAD-0211.rom \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/SL101-EC-0106.rom:system/etc/firmware/EC/SL101-EC-0106.rom \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/TF101-EC-0213.rom:system/etc/firmware/EC/TF101-EC-0213.rom \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/EM820W_11.810.09.12.00.zip:system/etc/firmware/EM820W_11.810.09.12.00.zip \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvddk_audiofx_core.axf:system/etc/firmware/nvddk_audiofx_core.axf \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvddk_audiofx_transport.axf:system/etc/firmware/nvddk_audiofx_transport.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_aacdec.axf:system/etc/firmware/nvmm_aacdec.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_adtsdec.axf:system/etc/firmware/nvmm_adtsdec.axf \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_h264dec2x.axf:system/etc/firmware/nvmm_h264dec2x.axf \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_audiomixer.axf:system/etc/firmware/nvmm_audiomixer.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_h264dec.axf:system/etc/firmware/nvmm_h264dec.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_jpegdec.axf:system/etc/firmware/nvmm_jpegdec.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_jpegenc.axf:system/etc/firmware/nvmm_jpegenc.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_manager.axf:system/etc/firmware/nvmm_manager.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_mp2dec.axf:system/etc/firmware/nvmm_mp2dec.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_mp3dec.axf:system/etc/firmware/nvmm_mp3dec.axf \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_mpeg2dec.axf:system/etc/firmware/nvmm_mpeg2dec.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_mpeg4dec.axf:system/etc/firmware/nvmm_mpeg4dec.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_reference.axf:system/etc/firmware/nvmm_reference.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_service.axf:system/etc/firmware/nvmm_service.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_sorensondec.axf:system/etc/firmware/nvmm_sorensondec.axf \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_vc1dec_2x.axf:system/etc/firmware/nvmm_vc1dec_2x.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_vc1dec.axf:system/etc/firmware/nvmm_vc1dec.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_wavdec.axf:system/etc/firmware/nvmm_wavdec.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_wmadec.axf:system/etc/firmware/nvmm_wmadec.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_wmaprodec.axf:system/etc/firmware/nvmm_wmaprodec.axf \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvrm_avp_00001000.bin:system/etc/firmware/nvrm_avp_00001000.bin \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvrm_avp_0ff00000.bin:system/etc/firmware/nvrm_avp_0ff00000.bin \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvrm_avp_8e000000.bin:system/etc/firmware/nvrm_avp_8e000000.bin \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvrm_avp_9e000000.bin:system/etc/firmware/nvrm_avp_9e000000.bin \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvrm_avp_be000000.bin:system/etc/firmware/nvrm_avp_be000000.bin \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvrm_avp_e0000000.bin:system/etc/firmware/nvrm_avp_e0000000.bin \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvrm_avp_eff00000.bin:system/etc/firmware/nvrm_avp_eff00000.bin \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/RS_M6Mo.bin:system/etc/firmware/RS_M6Mo.bin \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/FRL.list:system/etc/FRL.list \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/gamepad:system/etc/gamepad \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvrm_avp.bin:system/etc/firmware/nvrm_avp.bin \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/gpsconfig.xml:system/etc/gps/gpsconfig.xml \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/ir_ptr:system/etc/ir_ptr \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/neverball:system/etc/neverball \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/normalmode.sh:system/etc/normalmode.sh \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nunchuk_acc_ptr:system/etc/nunchuk_acc_ptr \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nunchuk_stick2btn:system/etc/nunchuk_stick2btn \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvram_murata.txt:system/etc/nvram_murata.txt \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvram_nh615.txt:system/etc/nvram_nh615.txt \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvram_nh665.txt:system/etc/nvram_nh665.txt \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvram_a_sl101.txt:system/etc/nvram_a_sl101.txt \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvram_a.txt:system/etc/nvram_a.txt \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvram.txt:system/etc/nvram.txt \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/asus.hardware.TF201.xml:system/etc/permissions/asus.hardware.TF201.xml \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/asus.hardware.SL101.xml:system/etc/permissions/asus.hardware.SL101.xml \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/asus.hardware.TF101.xml:system/etc/permissions/asus.hardware.TF101.xml \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/com.nvidia.nvstereoutils.xml:system/etc/permissions/com.nvidia.nvstereoutils.xml \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/SL101_power_profile.xml:system/etc/power_profile/SL101_power_profile.xml \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/TF101G_power_profile.xml:system/etc/power_profile/TF101G_power_profile.xml \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/TF101_power_profile.xml:system/etc/power_profile/TF101_power_profile.xml \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/ip-down-HUAWEI:system/etc/ppp/ip-down-HUAWEI \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/ip-up-HUAWEI:system/etc/ppp/ip-up-HUAWEI \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/projectmap.conf:system/etc/projectmap.conf \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/pwrsavemode.sh:system/etc/pwrsavemode.sh \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/cacerts.bks:system/etc/security/cacerts.bks \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/turbomode.sh:system/etc/turbomode.sh \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/vold.fstab:system/etc/vold.fstab \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/AdobeHeitiStd-Regular.otf:system/fonts/AdobeFonts/fonts/AdobeHeitiStd-Regular.otf \\
@@ -680,31 +551,20 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/UHEI01B.ttf:system/fonts/UHEI01B.ttf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/com.android.future.usb.accessory.jar:system/framework/com.android.future.usb.accessory.jar \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/com.nvidia.nvstereoutils.jar:system/framework/com.nvidia.nvstereoutils.jar \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/sqlite-jdbc.jar:system/framework/sqlite-jdbc.jar \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/acc.so:system/lib/acc.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/gps.tegra.so:system/lib/hw/gps.tegra.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/gps.ventana.so:system/lib/hw/gps.ventana.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/lights.cardhu.so:system/lib/hw/lights.cardhu.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/sensors.cardhu.so:system/lib/hw/sensors.cardhu.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/tegra_alsa.cardhu.so:system/lib/hw/tegra_alsa.cardhu.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/ir_ptr.so:system/lib/ir_ptr.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/led.so:system/lib/led.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/lights.ventana.so:system/lib/hw/lights.ventana.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/overlay.tegra.so:system/lib/hw/overlay.tegra.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/sensors.tegra.so:system/lib/hw/sensors.tegra.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/sensors.ventana.so:system/lib/hw/sensors.ventana.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/tegra_alsa.ventana.so:system/lib/hw/tegra_alsa.ventana.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/liba2dp.so:system/lib/liba2dp.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libakmd.so:system/lib/libakmd.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libami_sensor_mw.so:system/lib/libami_sensor_mw.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libami.so:system/lib/libami.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libAndrJFPDFEMB.so:system/lib/libAndrJFPDFEMB.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libANGLE.so:system/lib/libANGLE.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libasound.so:system/lib/libasound.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libaudiopolicy.so:system/lib/libaudiopolicy.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libaudio.so:system/lib/libaudio.so \\
@@ -713,9 +573,8 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libcamera.so:system/lib/libcamera.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libcgdrv.so:system/lib/libcgdrv.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libchinesetrace.so:system/lib/libchinesetrace.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libcwiid.so:system/lib/libcwiid.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libereader.so:system/lib/libereader.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libhwui.so:system/lib/libhwui.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libhuawei-ril.so:system/lib/libhuawei-ril.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libiris-jni.so:system/lib/libiris-jni.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libjingle.so:system/lib/libjingle.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libjni_pinyinime.so:system/lib/libjni_pinyinime.so \\
@@ -728,31 +587,27 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmllite.so:system/lib/libmllite.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmlplatform.so:system/lib/libmlplatform.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmpl.so:system/lib/libmpl.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvavp.so:system/lib/libnvavp.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvcpud_client.so:system/lib/libnvcpud_client.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvcpud.so:system/lib/libnvcpud.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvddk_2d.so:system/lib/libnvddk_2d.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvddk_aes_user.so:system/lib/libnvddk_aes_user.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvddk_audiofx.so:system/lib/libnvddk_audiofx.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvddk_vmr.so:system/lib/libnvddk_vmr.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvdispatch_helper.so:system/lib/libnvdispatch_helper.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvdispmgr_d.so:system/lib/libnvdispmgr_d.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvec.so:system/lib/libnvec.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvhdmi3dplay_jni.so:system/lib/libnvhdmi3dplay_jni.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_asfparser.so:system/lib/libnvmm_asfparser.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_audio.so:system/lib/libnvmm_audio.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_aviparser.so:system/lib/libnvmm_aviparser.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_camera.so:system/lib/libnvmm_camera.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_contentpipe.so:system/lib/libnvmm_contentpipe.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_image.so:system/lib/libnvmm_image.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmmlite_audio.so:system/lib/libnvmmlite_audio.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmmlite.so:system/lib/libnvmmlite.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmmlite_utils.so:system/lib/libnvmmlite_utils.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmmlite_video.so:system/lib/libnvmmlite_video.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_manager.so:system/lib/libnvmm_manager.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_misc.so:system/lib/libnvmm_misc.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_msaudio.so:system/lib/libnvmm_msaudio.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_parser.so:system/lib/libnvmm_parser.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_service.so:system/lib/libnvmm_service.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm.so:system/lib/libnvmm.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_tracklist.so:system/lib/libnvmm_tracklist.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_utils.so:system/lib/libnvmm_utils.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_vc1_video.so:system/lib/libnvmm_vc1_video.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_videorenderer.so:system/lib/libnvmm_videorenderer.so \\
@@ -760,29 +615,23 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_vp6_video.so:system/lib/libnvmm_vp6_video.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvmm_writer.so:system/lib/libnvmm_writer.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvodm_dtvtuner.so:system/lib/libnvodm_dtvtuner.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvodm_hdmi.so:system/lib/libnvodm_hdmi.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvodm_imager.so:system/lib/libnvodm_imager.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvodm_misc.so:system/lib/libnvodm_misc.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvodm_query.so:system/lib/libnvodm_query.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvomxilclient.so:system/lib/libnvomxilclient.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvomx.so:system/lib/libnvomx.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvos.so:system/lib/libnvos.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvparser.so:system/lib/libnvparser.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvrm_channel.so:system/lib/libnvrm_channel.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvrm.so:system/lib/libnvrm.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvsm.so:system/lib/libnvsm.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvstereoutils_jni.so:system/lib/libnvstereoutils_jni.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvsystemuiext_jni.so:system/lib/libnvsystemuiext_jni.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvtestio.so:system/lib/libnvtestio.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvtestresults.so:system/lib/libnvtestresults.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvtvmr.so:system/lib/libnvtvmr.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvwinsys.so:system/lib/libnvwinsys.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libnvwsi.so:system/lib/libnvwsi.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libortp.so:system/lib/libortp.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libpolarisoffice_Clipboard.so:system/lib/libpolarisoffice_Clipboard.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libpolarisoffice.so:system/lib/libpolarisoffice.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libril-icera.so:system/lib/libril-icera.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libsensors.mpl.so:system/lib/libsensors.mpl.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libshapewriter.so:system/lib/libshapewriter.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libsrsprocessing.so:system/lib/libsrsprocessing.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libstabilize.so:system/lib/libstabilize.so \\
@@ -790,48 +639,13 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libswscale.so:system/lib/libswscale.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libtalk_jni.so:system/lib/libtalk_jni.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libttssynthproxy.so:system/lib/libttssynthproxy.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libusb.so:system/lib/libusb.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libvoicesearch.so:system/lib/libvoicesearch.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libwvdrm.so:system/lib/libwvdrm.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libwvm.so:system/lib/libwvm.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libWVStreamControlAPI.so:system/lib/libWVStreamControlAPI.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/baseband_usb_chr.ko:system/lib/modules/baseband_usb_chr.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/baseband-xmm-power2.ko:system/lib/modules/baseband-xmm-power2.ko \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/battery_rvsd.ko:system/lib/modules/battery_rvsd.ko \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/bcm4329.ko:system/lib/modules/bcm4329.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/bcmdhd.ko:system/lib/modules/bcmdhd.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/cdc-acm.ko:system/lib/modules/cdc-acm.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/gspca_main.ko:system/lib/modules/gspca_main.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/max2165.ko:system/lib/modules/max2165.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/mc44s803.ko:system/lib/modules/mc44s803.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/mt2060.ko:system/lib/modules/mt2060.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/mt20xx.ko:system/lib/modules/mt20xx.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/mt2131.ko:system/lib/modules/mt2131.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/mt2266.ko:system/lib/modules/mt2266.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/mxl5005s.ko:system/lib/modules/mxl5005s.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/mxl5007t.ko:system/lib/modules/mxl5007t.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/qt1010.ko:system/lib/modules/qt1010.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/raw_ip_net.ko:system/lib/modules/raw_ip_net.ko \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/tcrypt.ko:system/lib/modules/tcrypt.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/tda18271.ko:system/lib/modules/tda18271.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/tda827x.ko:system/lib/modules/tda827x.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/tda8290.ko:system/lib/modules/tda8290.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/tda9887.ko:system/lib/modules/tda9887.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/tea5761.ko:system/lib/modules/tea5761.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/tea5767.ko:system/lib/modules/tea5767.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/tuner-simple.ko:system/lib/modules/tuner-simple.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/tuner-types.ko:system/lib/modules/tuner-types.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/tuner-xc2028.ko:system/lib/modules/tuner-xc2028.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/xc5000.ko:system/lib/modules/xc5000.ko \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nunchuk_acc.so:system/lib/nunchuk_acc.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nunchuk_stick2btn.so:system/lib/nunchuk_stick2btn.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/omxplayer.so:system/lib/omxplayer.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libflashplayer.so:system/lib/plugins/com.adobe.flashplayer/libflashplayer.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libstagefright_froyo.so:system/lib/plugins/com.adobe.flashplayer/libstagefright_froyo.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libstagefright_honeycomb.so:system/lib/plugins/com.adobe.flashplayer/libstagefright_honeycomb.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libysshared.so:system/lib/plugins/com.adobe.flashplayer/libysshared.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/NewMessage.ogg:system/media/audio/notifications/NewMessage.ogg \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/KeyboardDock.ogg:system/media/audio/ui/KeyboardDock.ogg \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/bootanimation.zip:system/media/bootanimation.zip \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/monkey_test_a:system/scripts/monkey/monkey_test_a \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/monkey_test_p:system/scripts/monkey/monkey_test_p \\
@@ -840,17 +654,12 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/timer:system/scripts/monkey/timer \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/icudt44l.dat:system/usr/icu/icudt44l.dat \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/atmel-maxtouch.idc:system/usr/idc/atmel-maxtouch.idc \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/eGalax_Serial.idc:system/usr/idc/eGalax_Serial.idc \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/elantech_touchscreen.idc:system/usr/idc/elantech_touchscreen.idc \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/panjit_touch.idc:system/usr/idc/panjit_touch.idc \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/asusdec.kcm:system/usr/keychars/asusdec.kcm \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/asusdec.kl:system/usr/keylayout/asusdec.kl \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/Bluetooth_00_06_66_42.kl:system/usr/keylayout/Bluetooth_00_06_66_42.kl \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/asusec.kcm:system/usr/keychars/asusec.kcm \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/asusec.kl:system/usr/keylayout/asusec.kl \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/tegra-kbc.kl:system/usr/keylayout/tegra-kbc.kl \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/Vendor_044f_Product_d007.kl:system/usr/keylayout/Vendor_044f_Product_d007.kl \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/Vendor_046d_Product_c21d.kl:system/usr/keylayout/Vendor_046d_Product_c21d.kl \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/Vendor_046d_Product_c21f.kl:system/usr/keylayout/Vendor_046d_Product_c21f.kl \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/Vendor_057e_Product_0306.kl:system/usr/keylayout/Vendor_057e_Product_0306.kl \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/alsa.conf:system/usr/share/alsa/alsa.conf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/aliases.conf:system/usr/share/alsa/cards/aliases.conf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \\
@@ -982,31 +791,26 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/qwerty-tr_TR.kl:system/usr/xt9/keylayout/qwerty-tr_TR.kl \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/qwerty-zh_CN.kl:system/usr/xt9/keylayout/qwerty-zh_CN.kl \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/qwerty-zh_TW.kl:system/usr/xt9/keylayout/qwerty-zh_TW.kl \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/fw_bcm4330_apsta.bin:system/vendor/firmware/fw_bcm4330_apsta.bin \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/fw_bcm4330_b1.bin:system/vendor/firmware/fw_bcm4330_b1.bin \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/fw_bcm4330.bin:system/vendor/firmware/fw_bcm4330.bin \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/asus-backup:system/xbin/asus-backup \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/busybox:system/xbin/busybox \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/su:system/xbin/su
 
 # All the apks necessary for tf101
 PRODUCT_PACKAGES += \\
-    AdobeFlash \\
-    AppLocker \\
     AsusReader \\
     AsusSetupWizard \\
     AWS \\
-    BatteryWidget \\
     BooksTablet \\
     ChromeBookmarksSyncAdapter \\
     CMClient \\
     DataBackup \\
     Dictionary \\
+    DLNA \\
     DMClient \\
     EmailWidget \\
     FacebookPoster \\
-    FileManager2 \\
-    GalleryNew3D \\
-    Glowball \\
+    FileManager \\
+    GalleryNew3DGoogle \\
     Gmail \\
     GoogleBackupTransport \\
     GoogleCalendarSyncAdapter \\
@@ -1025,23 +829,20 @@ PRODUCT_PACKAGES += \\
     MarketUpdater \\
     MEar \\
     MediaUploader \\
+    ModemUpdateService \\
     Music2 \\
     MyCloud \\
-    MyNet \\
-    MyWater2 \\
+    MyGazine \\
     MyWater \\
-    MyZine \\
     Netflix \\
     NetworkLocation \\
-    NvCPLSvc \\
     NVIDIATegraZone \\
+    OneTimeInitializer \\
     PCSyncLauncher \\
     Phonesky \\
     PixWe \\
     PolarisOffice \\
     PRAndroid \\
-    QuickSearch \\
-    Riptide \\
     Screenshot \\
     SetupWizard \\
     StrAsus \\
@@ -1057,7 +858,6 @@ PRODUCT_PACKAGES += \\
     VoiceSearch \\
     Weather \\
     XT9IME \\
-    YoutubeSearch \\
     YouTubeTablet \\
     ZinioReader \\
     ZinioSettingsProvider \\
@@ -1088,30 +888,6 @@ LOCAL_PATH:=\$(call my-dir)
 
 # Module makefile rules for apks on tf101
 
-# AdobeFlash
-
-include \$(CLEAR_VARS)
-
-LOCAL_MODULE := AdobeFlash
-LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
-include \$(BUILD_PREBUILT)
-
-# AppLocker
-
-include \$(CLEAR_VARS)
-
-LOCAL_MODULE := AppLocker
-LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
-include \$(BUILD_PREBUILT)
-
 # AsusReader
 
 include \$(CLEAR_VARS)
@@ -1141,18 +917,6 @@ include \$(BUILD_PREBUILT)
 include \$(CLEAR_VARS)
 
 LOCAL_MODULE := AWS
-LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
-include \$(BUILD_PREBUILT)
-
-# BatteryWidget
-
-include \$(CLEAR_VARS)
-
-LOCAL_MODULE := BatteryWidget
 LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
@@ -1220,6 +984,18 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 include \$(BUILD_PREBUILT)
 
+# DLNA
+
+include \$(CLEAR_VARS)
+
+LOCAL_MODULE := DLNA
+LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
+include \$(BUILD_PREBUILT)
+
 # DMClient
 
 include \$(CLEAR_VARS)
@@ -1256,11 +1032,11 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 include \$(BUILD_PREBUILT)
 
-# FileManager2
+# FileManager
 
 include \$(CLEAR_VARS)
 
-LOCAL_MODULE := FileManager2
+LOCAL_MODULE := FileManager
 LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
@@ -1268,23 +1044,11 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 include \$(BUILD_PREBUILT)
 
-# GalleryNew3D
+# GalleryNew3DGoogle
 
 include \$(CLEAR_VARS)
 
-LOCAL_MODULE := GalleryNew3D
-LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
-include \$(BUILD_PREBUILT)
-
-# Glowball
-
-include \$(CLEAR_VARS)
-
-LOCAL_MODULE := Glowball
+LOCAL_MODULE := GalleryNew3DGoogle
 LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
@@ -1508,6 +1272,18 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 include \$(BUILD_PREBUILT)
 
+# ModemUpdateService
+
+include \$(CLEAR_VARS)
+
+LOCAL_MODULE := ModemUpdateService
+LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
+include \$(BUILD_PREBUILT)
+
 # Music2
 
 include \$(CLEAR_VARS)
@@ -1532,23 +1308,11 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 include \$(BUILD_PREBUILT)
 
-# MyNet
+# MyGazine
 
 include \$(CLEAR_VARS)
 
-LOCAL_MODULE := MyNet
-LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
-include \$(BUILD_PREBUILT)
-
-# MyWater2
-
-include \$(CLEAR_VARS)
-
-LOCAL_MODULE := MyWater2
+LOCAL_MODULE := MyGazine
 LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
@@ -1561,18 +1325,6 @@ include \$(BUILD_PREBUILT)
 include \$(CLEAR_VARS)
 
 LOCAL_MODULE := MyWater
-LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
-include \$(BUILD_PREBUILT)
-
-# MyZine
-
-include \$(CLEAR_VARS)
-
-LOCAL_MODULE := MyZine
 LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
@@ -1604,11 +1356,11 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 include \$(BUILD_PREBUILT)
 
-# NvCPLSvc
+# NVIDIATegraZone
 
 include \$(CLEAR_VARS)
 
-LOCAL_MODULE := NvCPLSvc
+LOCAL_MODULE := NVIDIATegraZone
 LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
@@ -1616,11 +1368,11 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 include \$(BUILD_PREBUILT)
 
-# NVIDIATegraZone
+# OneTimeInitializer
 
 include \$(CLEAR_VARS)
 
-LOCAL_MODULE := NVIDIATegraZone
+LOCAL_MODULE := OneTimeInitializer
 LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
@@ -1681,30 +1433,6 @@ include \$(BUILD_PREBUILT)
 include \$(CLEAR_VARS)
 
 LOCAL_MODULE := PRAndroid
-LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
-include \$(BUILD_PREBUILT)
-
-# QuickSearch
-
-include \$(CLEAR_VARS)
-
-LOCAL_MODULE := QuickSearch
-LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
-include \$(BUILD_PREBUILT)
-
-# Riptide
-
-include \$(CLEAR_VARS)
-
-LOCAL_MODULE := Riptide
 LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
@@ -1885,18 +1613,6 @@ include \$(BUILD_PREBUILT)
 include \$(CLEAR_VARS)
 
 LOCAL_MODULE := XT9IME
-LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
-include \$(BUILD_PREBUILT)
-
-# YoutubeSearch
-
-include \$(CLEAR_VARS)
-
-LOCAL_MODULE := YoutubeSearch
 LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
