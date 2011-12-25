@@ -1,11 +1,6 @@
-# Release name
-#PRODUCT_RELEASE_NAME := TF101
-
-# Inherit some common CM stuff.
-#$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk )
-
-# Inherit device configuration
-#$(call inherit-product, device/asus/tf101/device_tf101.mk)
+PRODUCT_RELEASE_NAME := TF101
+$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk )
+$(call inherit-product, device/asus/tf101/device_tf101.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Asus
