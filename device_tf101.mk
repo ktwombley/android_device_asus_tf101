@@ -29,3 +29,29 @@ PRODUCT_COPY_FILES += \
     device/asus/tf101/init.ventana.rc:root/init.ventana.rc \
     device/asus/tf101/ueventd.ventana.rc:root/ueventd.ventana.rc \
 
+PRODUCT_CHARACTERISTICS := tablet
+
+# we have enough storage space to hold precise GC data
+PRODUCT_TAGS += dalvik.gc.type-precise
+
+
+# Set default USB interface
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+        persist.sys.usb.config=mtp
+
+PRODUCT_COPY_FILES += \
+    frameworks/base/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_c$
+    frameworks/base/data/etc/android.hardware.location.gps.xml:system/etc/permissions$
+    frameworks/base/data/etc/android.hardware.wifi.xml:system/etc/permissions/android$
+    frameworks/base/data/etc/android.hardware.sensor.light.xml:system/etc/permissions$
+    frameworks/base/data/etc/android.hardware.sensor.barometer.xml:system/etc/permiss$
+    frameworks/base/data/etc/android.hardware.sensor.gyroscope.xml:system/etc/permiss$
+    frameworks/base/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/p$
+    frameworks/base/data/etc/android.hardware.camera.front.xml:system/etc/permissions$
+    frameworks/base/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:sys$
+    frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/and$
+    frameworks/base/data/etc/android.hardware.usb.host.xml:system/etc/permissions/and$
+    frameworks/base/data/etc/android.hardware.usb.accessory.xml:system/etc/permission$
+    packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:system/etc/per$
+
+
