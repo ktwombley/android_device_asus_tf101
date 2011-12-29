@@ -26,7 +26,6 @@ PRODUCT_DEVICE := tf101
 include frameworks/base/build/tablet-dalvik-heap.mk
 
 PRODUCT_COPY_FILES += \
-    device/asus/tf101/init.ventana.rc:root/init.stingray.rc \
+    device/asus/tf101/init.ventana.rc:root/init.ventana.rc \
     device/asus/tf101/ueventd.ventana.rc:root/ueventd.ventana.rc \
-    device/asus/tf101/default.prop:root/default.prop \
 
