@@ -37,7 +37,14 @@ adb pull /system/etc/firmware/nvmm_mp3dec.axf ../../../vendor/$MANUFACTURER/$DEV
 adb pull /system/etc/firmware/nvmm_mpeg4dec.axf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/nvmm_mpeg4dec.axf
 adb pull /system/etc/firmware/nvmm_reference.axf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/nvmm_reference.axf
 adb pull /system/etc/firmware/nvmm_service.axf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/nvmm_service.axf
+adb pull /system/usr/idc/atmel-maxtouch.idc ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/atmel-maxtouch.idc
+adb pull /system/usr/idc/elantech_touchscreen.idc ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/elantech_touchscreen.idc
+adb pull /system/usr/idc/panjit_touch.idc ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/panjit_touch.idc
+adb pull /system/usr/idc/eGalax_Serial.idc  ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/eGalax_Serial.idc 
 adb pull /system/etc/firmware/nvmm_sorensondec.axf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/nvmm_sorensondec.axf
+adb pull /system/lib/libmpl.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libmpl.so
+adb pull /system/lib/libmlplatform.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libmlplatform.so
+adb pull /system/lib/libmllite.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libmllite.so
 adb pull /system/etc/firmware/nvmm_wavdec.axf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/nvmm_wavdec.axf
 adb pull /system/etc/firmware/nvrm_avp.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/nvrm_avp.bin
 adb pull /system/etc/gps.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/gps.conf
@@ -122,6 +129,9 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvmm_wavdec.axf:system/etc/firmware/nvmm_wavdec.axf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvrm_avp.bin:system/etc/firmware/nvrm_avp.bin \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/gps.conf:system/etc/gps.conf \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmllite.so:system/lib/libmllite.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmpl.so:system/lib/libmpl.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmlplatform.so:system/lib/libmlplatform.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \\
@@ -159,6 +169,10 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/fw_bcm4329.bin:system/vendor/firmware/fw_bcm4329.bin \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/tegra_alsa.ventana.so:system/lib/hw/tegra_alsa.ventana.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/sensors.ventana.so:system/lib/hw/sensors.ventana.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/atmel-maxtouch.idc:system/usr/idc/atmel-maxtouch.idc \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/elantech_touchscreen.idc:system/usr/idc/elantech_touchscreen.idc \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/panjit_touch.idc:system/usr/idc/panjit_touch.idc \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/eGalax_Serial.idc:system/usr/idc/eGalax_Serial.idc \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/lights.ventana.so:system/lib/hw/lights.ventana.so
 
 EOF
