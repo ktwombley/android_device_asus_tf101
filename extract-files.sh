@@ -42,6 +42,7 @@ adb pull /system/usr/idc/elantech_touchscreen.idc ../../../vendor/$MANUFACTURER/
 adb pull /system/usr/idc/panjit_touch.idc ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/panjit_touch.idc
 adb pull /system/usr/idc/eGalax_Serial.idc  ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/eGalax_Serial.idc 
 adb pull /system/etc/firmware/nvmm_sorensondec.axf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/nvmm_sorensondec.axf
+adb pull /system/lib/libsensors.mpl.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libsensors.mpl.so
 adb pull /system/lib/libmpl.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libmpl.so
 adb pull /system/lib/libmlplatform.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libmlplatform.so
 adb pull /system/lib/libmllite.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libmllite.so
@@ -132,6 +133,7 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmllite.so:system/lib/libmllite.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmpl.so:system/lib/libmpl.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmlplatform.so:system/lib/libmlplatform.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libsensors.mpl.so:system/lib/libsensors.mpl.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \\
