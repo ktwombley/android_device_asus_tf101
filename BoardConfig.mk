@@ -62,6 +62,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 #TARGET_RELEASETOOLS_EXTENSIONS := device/asus/transformer
 
 # Graphics setup
-BOARD_EGL_CFG := $(LOCAL_PATH)/egl.cfg
+BOARD_EGL_CFG := device/asus/tf101/egl.cfg
 USE_OPENGL_RENDERER := true
 
