@@ -1,43 +1,21 @@
-# Copyright (C) 2007 The Android Open Source Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-# config.mk
-#
-# Product-specific compile-time definitions.
-#
-
-LOCAL_PATH:= device/asus/tf101
-
-
-# WARNING: This line must come *before* including the proprietary
-# variant, so that it gets overwritten by the parent (which goes
-# against the traditional rules of inheritance).
-USE_CAMERA_STUB := true
-
-# inherit from the proprietary version
+USE_CAMERA_STUB := false
 -include vendor/asus/tf101/BoardConfigVendor.mk
+USE_PROPRIETARY_AUDIO_EXTENSIONS := false
+SMALLER_FONT_FOOTPRINT := true
 
 # Target setup
 TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := tegra
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
-TARGET_ARCH_VARIANT := armv7-a
-ARCH_ARM_HAVE_TLS_REGISTER := true
-TARGET_BOOTLOADER_BOARD_NAME := tf101
 TARGET_CPU_SMP := true
+TARGET_ARCH_VARIANT := armv7-a
+TARGET_BOARD_PLATFORM := tegra
+ARCH_ARM_HAVE_TLS_REGISTER := true
+TARGET_BOOTLOADER_BOARD_NAME := tegra
+TARGET_ARCH_VARIANT_FPU := vfpv3-d16
 
+# Misc
 
 TARGET_PREBUILT_KERNEL := device/asus/tf101/kernel
 
@@ -70,16 +48,20 @@ WIFI_DRIVER_FW_PATH_AP      := "/system/vendor/firmware/fw_bcm4329_apsta.bin"
 WIFI_DRIVER_MODULE_NAME     := "bcm4329"
 WIFI_DRIVER_MODULE_ARG      := "firmware_path=/system/vendor/firmware/fw_bcm4329.bin nvram_path=/system/etc/nvram.txt"
 
+# Audio
+BOARD_USES_GENERIC_AUDIO := false
+USE_PROPRIETARY_AUDIO_EXTENSIONS := false
+
 # Custom Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := $(LOCAL_PATH)/recovery/recovery_ui.c
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 #TARGET_RECOVERY_UI_LIB := librecovery_ui_tf101
+# device-specific extensions to the updater binary
+#TARGET_RECOVERY_UPDATER_LIBS += librecovery_updater_tf101
+#TARGET_RELEASETOOLS_EXTENSIONS := device/asus/transformer
 
 # Graphics setup
 BOARD_EGL_CFG := $(LOCAL_PATH)/egl.cfg
 USE_OPENGL_RENDERER := true
 
-# device-specific extensions to the updater binary
-#TARGET_RECOVERY_UPDATER_LIBS += librecovery_updater_tf101
-#TARGET_RELEASETOOLS_EXTENSIONS := device/asus/transformer

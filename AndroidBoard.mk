@@ -27,4 +27,4 @@ endif
 
 
 # include the non-open-source counterpart to this file
--include vendor/asus/tf101/AndroidBoardVendor.mk
+-include vendor/asus/tf101/BoardConfigVendor.mk
