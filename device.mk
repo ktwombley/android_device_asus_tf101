@@ -16,10 +16,9 @@ endif
 
 PRODUCT_COPY_FILES := \
 	$(LOCAL_KERNEL):kernel \
+	device/asus/tf101/init.rc:root/init.rc \
 	device/asus/tf101/init.ventana.rc:root/init.ventana.rc \
 	device/asus/tf101/ueventd.ventana.rc:root/ueventd.ventana.rc \
-
-
 
 $(call inherit-product, build/target/product/full.mk)
 
@@ -28,28 +27,56 @@ PRODUCT_NAME := full_tf101
 PRODUCT_DEVICE := tf101
 
 include frameworks/base/build/tablet-dalvik-heap.mk
-
-PRODUCT_COPY_FILES += \
-    device/asus/tf101/init.ventana.rc:root/init.ventana.rc \
-    device/asus/tf101/ueventd.ventana.rc:root/ueventd.ventana.rc \
-
 PRODUCT_CHARACTERISTICS := tablet
-
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
-
 
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
         persist.sys.usb.config=mtp
 
-PRODUCT_COPY_FILES += \
-    frameworks/base/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml \
-    vendor/asus/tf101/proprietary/asus.hardware.TF101.xml:system/etc/permissions/asus.hardware.TF101.xml \
-    packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml
+PRODUCT_PROPERTY_OVERRIDES += \
+    wifi.interface=wlan0 \
+    wifi.supplicant_scan_interval=15
 
+PRODUCT_COPY_FILES += \
+    device/asus/tf101/asound.conf:system/etc/asound.conf \
+    device/asus/tf101/asus.hardware.TF101.xml:system/etc/permissions/asus.hardware.TF101.xml \
+    device/asus/tf101/asusec.kcm:system/usr/keychars/asusec.kcm \
+    device/asus/tf101/asusec.kl:system/usr/keylayout/asusec.kl \
+    device/asus/tf101/atmel-maxtouch.idc:system/usr/idc/atmel-maxtouch.idc \
+    device/asus/tf101/bcm4329.ko:system/lib/modules/bcm4329.ko \
+    device/asus/tf101/eGalax_Serial.idc:system/usr/idc/eGalax_Serial.idc \
+    device/asus/tf101/elantech_touchscreen.idc:system/usr/idc/elantech_touchscreen.idc
+    device/asus/tf101/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
+    device/asus/tf101/gps.conf:system/etc/gps.conf \
+    device/asus/tf101/nvram.txt:system/etc/wifi/nvram.txt \
+    device/asus/tf101/nvram_a.txt:system/etc/wifi/nvram_a.txt \
+    device/asus/tf101/nvram_a_sl101.txt:system/etc/wifi/nvram_a_sl101.txt \
+    frameworks/base/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
+    frameworks/base/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
+    frameworks/base/data/etc/android.hardware.sensor.barometer.xml:system/etc/permissions/android.hardware.sensor.barometer.xml \
+    frameworks/base/data/etc/android.hardware.sensor.gyroscope.xml:system/etc/permissions/android.hardware.sensor.gyroscope.xml \
+    frameworks/base/data/etc/android.hardware.sensor.light.xml:system/etc/permissions/android.hardware.sensor.light.xml \
+    frameworks/base/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
+    frameworks/base/data/etc/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml \
+    frameworks/base/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
+    frameworks/base/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
+    frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
+    frameworks/base/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml \
+    packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml
 
 PRODUCT_PACKAGES += \
     hwcomposer.default \
     sensors.default \
-    gralloc.tegra    
+    gralloc.tegra  \
+    audio.primary.ventana \
+    audio_policy.ventana \
+    audio.a2dp.default \
+    com.android.future.usb.accessory \
+    LiveWallpapers \
+    LiveWallpapersPicker \
+    VisualizationWallpapers \
+    librs_jni \
+    wifiloader
+

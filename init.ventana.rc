@@ -64,7 +64,6 @@ on boot
     chmod 666 /dev/nvhost-vi
     chmod 664 /sys/devices/platform/tegra-i2c.1/i2c-2/2-001c/show_lux
 
-
 # Power management settings
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 216000
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq 1000000
@@ -118,6 +117,10 @@ service iprenew /system/bin/dhcpcd -n
     disabled
     oneshot
 
+service iprenew_wlan0 /system/bin/dhcpcd -n
+    disabled
+    oneshot
+
 service iprenew_eth0 /system/bin/dhcpcd -n
     disabled
     oneshot
@@ -151,78 +154,6 @@ service gps-daemon /system/bin/glgps -c /system/etc/gps/gpsconfig.xml
     class late_start
     user root
     group root
-
-# logtool service start
-service logdog-conf /system/bin/sh /data/data/com.asus.LogTool/files/logdog-conf.sh
-    user root
-    group root
-    oneshot
-
-service sunnyd /data/data/com.asus.LogTool/files/sunnyd
-    user root
-    group root
-    disabled
-
-service logdog-system /system/bin/sh /data/data/com.asus.LogTool/files/logdog-starter.sh /data/local/tmp/logdog-system.conf
-    user root
-    group root
-    disabled
-    class logging-services
-
-service logdog-main /system/bin/sh /data/data/com.asus.LogTool/files/logdog-starter.sh /data/local/tmp/logdog-main.conf
-    user root
-    group root
-    disabled
-    class logging-services
-
-service logdog-radio /system/bin/sh /data/data/com.asus.LogTool/files/logdog-starter.sh /data/local/tmp/logdog-radio.conf
-    user root
-    group root
-    disabled
-    class logging-services
-
-service logdog-events /system/bin/sh /data/data/com.asus.LogTool/files/logdog-starter.sh /data/local/tmp/logdog-events.conf
-    user root
-    group root
-    disabled
-    class logging-services
-
-service klogdog /system/bin/sh /data/data/com.asus.LogTool/files/klogdog-starter.sh
-    user root
-    group root
-    disabled
-    class logging-services
-
-service tcpdump /system/bin/sh /data/data/com.asus.LogTool/files/tcpdump-starter.sh
-    user root
-    group root
-    disabled
-    class logging-services
-
-service hcidump /system/bin/sh /data/data/com.asus.LogTool/files/hcidump-starter.sh
-    user root
-    group root
-    disabled
-    class logging-services
-
-service hwqxdm /system/bin/sh /data/data/com.asus.LogTool/files/hwqxdm-starter.sh
-    user root
-    group root
-    oneshot
-    class logging-services
-
-service archive-logs /system/bin/sh /data/data/com.asus.LogTool/files/archive-logs.sh
-    user root
-    group root
-    disabled
-    oneshot
-
-service flush-logs /system/bin/sh /data/data/com.asus.LogTool/files/flush-logs.sh
-    user root
-    group root
-    disabled
-    oneshot
-#logtool service end
 
 # Write Wi-Fi Mac
 service wifiloader /system/bin/wifiloader
@@ -261,7 +192,7 @@ service SerialAttach /system/bin/SerialAttach
     oneshot
 
 #Sensor: load calibration files.
-    service sensors-config /system/bin/sensors-config
+service sensors-config /system/bin/sensors-config
     class main
     user root
     oneshot
