@@ -47,8 +47,8 @@ PRODUCT_COPY_FILES += \
     device/asus/tf101/atmel-maxtouch.idc:system/usr/idc/atmel-maxtouch.idc \
     device/asus/tf101/bcm4329.ko:system/lib/modules/bcm4329.ko \
     device/asus/tf101/eGalax_Serial.idc:system/usr/idc/eGalax_Serial.idc \
-    device/asus/tf101/elantech_touchscreen.idc:system/usr/idc/elantech_touchscreen.idc
-    device/asus/tf101/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
+    device/asus/tf101/elantech_touchscreen.idc:system/usr/idc/elantech_touchscreen.idc \
+    device/asus/tf101/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     device/asus/tf101/gps.conf:system/etc/gps.conf \
     device/asus/tf101/nvram.txt:system/etc/wifi/nvram.txt \
     device/asus/tf101/nvram_a.txt:system/etc/wifi/nvram_a.txt \
